@@ -8,78 +8,46 @@
 	<script src = "../../jquery-3.3.1.js">‪</script>
 	<!--<link rel="stylesheet" type="text/css" href="css_Lika_learning.css"> 	file css-->
 	<link rel="shortcut icon" href="//k12school.vn/wp-content/themes/porto/images/logo/favicon.ico" type="image/x-icon" />
- 	<script >
-		 $('#myCarousel').carousel({
-    pause: 'none'
-  })
-	</script> 
 
 	<style>
 		<?php include("css_lika_gv.css"); ?>
-		.container-fluid>.col-md-12
-		{
-			padding-right: 0px;
-			padding-left: 0px;
-		}
 	</style>
 </head>
 <body>
-	<div class = "container-fluid">
-		<div class="container1">
-  <div id="background-carousel">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url('‪../../IMG2/banner_lika_learning.png');"></div>
-        <div class="item" style="background-image: url('‪../../IMG2/Banner_trangchu.jpg');"></div>
-        <div class="item" style="background-image: url('‪../../IMG2/banner_likatutor.jpg');"></div>  
-      </div>
-    </div>
 </div>
- 
- 
-<div id="content-wrapper">
-<!-- PAGE CONTENT -->
-    <div class="container1">
-        <div class="page-header"><h3>Fullscreen Background Carousel</h3></div>
-        <div class="well"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><a href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank" class="label label-danger">Bootstrap 3 - Carousel Collection</a></p>
-        </div><!-- End Well -->
-    </div><!-- End Container -->
-<!-- PAGE CONTENT -->
-</div>
-  </div>
-<!-- 		<div style="position: relative;" class ="col-xs-12 col-md-12">
+  </div> 
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    
+    <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-    
-    <div style="position: absolute;" class="carousel-inner">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
       <div class="item active">
         <img src="‪../../IMG2/banner_lika_learning.png" alt="...">
-    
       </div>
 
       <div class="item">
         <img src="‪../../IMG2/Banner_trangchu.jpg" alt="...">
-     
+
       </div>
     
       <div class="item">
         <img src = '‪../../IMG2/banner_likatutor.jpg'>
+            
       </div>
     </div>
-          <div class="col-xs-3 col-md-8">
-        <p class ="title1">TRỞ THÀNH <br />GIÁO VIÊN LIKA</p>
-        <p class ="title2">Mời giáo viên làm thêm ngoài giờ trên hệ thống <br />E-learning của LIKA<br />Liên hệ: 024 6682 0123</p>
-           </div>
+      <div id ='caption-carousel'  class="col-xs-12 col-md-7">
+      	<p id ="title1">TRỞ THÀNH<br />GIÁO VIÊN LIKA</p>
+        <p id ="title2">Mời giáo viên làm thêm ngoài giờ trên hệ thống E-learning của LIKA<br />
+Liên hệ: 02466820123</p>
+      </div>
 
-  </div> 
    <?php include("form_gv.php"); ?>
-</div> -->
+</div>
   	<div id = "row1" class="col-xs-12 col-md-12">
   		<p style="font-size: 29px;"><strong>Cộng đồng hơn 300 giáo viên tham gia hợp tác</strong></p>
   		<p style="    font-size: 15px;">Đội ngũ thầy Cô giáo giỏi, nhiều năm kinh nghiệm từ Vụ giáo dục tiểu học – Bộ GD & ĐT 

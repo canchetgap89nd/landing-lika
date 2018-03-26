@@ -345,7 +345,9 @@ template {
 		  padding-left: 0px;
    		  padding-right: 0px;
 		}
-		html,body {
+
+		
+	/*	html,body {
     height:100%;
   width:100%;
   position:relative;
@@ -379,7 +381,7 @@ template {
 }
 .well {
     opacity:0.85
-}
+}*/
 	/*	.carousel-inner{
 		  width:100%;
 		  max-height: 200px !important;
@@ -397,7 +399,7 @@ template {
 		    background-repeat: repeat;
 		    height: auto;
 		}
-		.title1
+	/*	.title1
 		{
 			font-size: 64px;
 			font-weight: 700;
@@ -410,13 +412,46 @@ template {
 			font-family: Roboto;
 			color: #fff;
 		}
-		/*.carousel-caption
+	*/
+		
+		/*#div-carousel
 		{
-			text-align: left;
-			left: 5%; 
-			right: 0%; 
+			padding-left: 0px;
+			padding-right: 0px;
 		}*/
-	/*	#myCarousel button
+		#form-dk{
+			position: absolute;
+			top: 20px;
+			right: 10px;
+		}
+		.form-control
+		{
+			padding: 0px 50px;
+		}
+		#myCarousel div #title1
+		{
+			font-weight: 600;
+			font-size: 68px;
+			color: #fff;
+			text-shadow: 3px 2px 8px #333;
+		}
+		#myCarousel div #title2
+		{
+			font-size: 18px;
+			color: #fff;
+		}
+		.item img
+		{
+			min-height: 490px;
+			position: relative;
+		}
+		#caption-carousel
+		{
+		    position: absolute; 
+	    	bottom: 15%;
+	    	left: 40px;
+		}
+		#myCarousel button
 		{
 			margin-top: 9px;
 		    width: 230px;
@@ -427,11 +462,7 @@ template {
 		    color: #fff;
 		    font-size: 17px;
 		    font-family: roboto;
-		}*/
-	
-	
-		
-	
+		}
 	
 		#row1
 		{

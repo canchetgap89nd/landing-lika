@@ -33,49 +33,23 @@
     <div class="carousel-inner">
       <div class="item active">
         <img src="‪../../IMG2/banner_lika_learning.png" alt="...">
-              <div class="carousel-caption">
-          <div class="col-xs-12 col-md-12">
-        <p id ="title1">LIKA-Learning</p>
-      </div>
-      <div  class="col-xs-12 col-md-7">
-        <p id ="title2">LIKA-Learning là chương trình giúp con tự học, tự ôn luyện tại nhà với nội dung được đội ngũ giáo viên giỏi và hội đồng khoa học uy tín xây dung từ cơ bản đến nâng cao đủ các môn chính khóa.</p>
-      </div>
-      <div class="col-xs-12 col-md-12">
-      <button>TẢI NGAY</button>
-        </div>
-      </div>
       </div>
 
       <div class="item">
         <img src="‪../../IMG2/Banner_trangchu.jpg" alt="...">
-              <div class="carousel-caption">
-          <div class="col-xs-12 col-md-12">
-        <p id ="title1">LIKA-Learning</p>
-      </div>
-      <div  class="col-xs-12 col-md-7">
-        <p id ="title2">LIKA-Learning là chương trình giúp con tự học, tự ôn luyện tại nhà với nội dung được đội ngũ giáo viên giỏi và hội đồng khoa học uy tín xây dung từ cơ bản đến nâng cao đủ các môn chính khóa.</p>
-      </div>
-      <div class="col-xs-12 col-md-12">
-      <button>TẢI NGAY</button>
-        </div>
-      </div>
+
       </div>
     
       <div class="item">
         <img src = '‪../../IMG2/banner_likatutor.jpg'>
-              <div class="carousel-caption">
-          <div class="col-xs-12 col-md-12">
-        <p id ="title1">LIKA-Learning</p>
-      </div>
-      <div  class="col-xs-12 col-md-7">
-        <p id ="title2">LIKA-Learning là chương trình giúp con tự học, tự ôn luyện tại nhà với nội dung được đội ngũ giáo viên giỏi và hội đồng khoa học uy tín xây dung từ cơ bản đến nâng cao đủ các môn chính khóa.</p>
-      </div>
-      <div class="col-xs-12 col-md-12">
-      <button>TẢI NGAY</button>
-        </div>
-      </div>
+            
       </div>
     </div>
+      <div id ='caption-carousel'  class="col-xs-7 col-md-7">
+      	<p id ="title1">LIKA-Learning</p>
+        <p id ="title2">LIKA-Learning là chương trình giúp con tự học, tự ôn luyện tại nhà với nội dung được đội ngũ giáo viên giỏi và hội đồng khoa học uy tín xây dung từ cơ bản đến nâng cao đủ các môn chính khóa.</p>
+        <button>TẢI NGAY</button>
+      </div>
 
     <!-- Left and right controls -->
    <!--  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
