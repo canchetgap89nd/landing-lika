@@ -496,7 +496,16 @@ template {
 		.row>.col-md-12>.col-md-6>.col-md-1
 		{
 			padding: 0px;
+			-webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+   			 transition: width 1s, height 1s, transform 1s;
 		}
+		.row>.col-md-12>.col-md-6>.col-md-1:hover
+		{
+			padding: 0px;
+			-webkit-transform: rotate(360deg); /* Safari */
+    		transform: rotate(360deg);
+		}
+
 		.row>.col-md-12>.col-md-6>.col-md-11
 		{
 			padding-left: 30px;
@@ -628,30 +637,7 @@ template {
 		{
 			 margin-top: 38px;
 		}
-		#row7
-		{
-			 padding: 20px 90px;
-			 margin-bottom: 30px;
-		}
-		#row7 .col-md-12
-		{
-			background-color: #F7F9F9;
-			padding: 0px;
-			 border: 1px solid;
-   			 border-radius: 8px;
-    		margin-top: 20px;
-		}
-		#row7 .col-md-1
-		{
-			background-color: #F5B041;
-   			text-align: center;
-       		border-bottom-left-radius: 7px;
-    		border-top-left-radius: 7px;
-		}
-		#row7 .col-md-11
-		{
-			margin-top: 11px;
-		}
+		
 		.accordion {
 		    background-color: #eee;
 		    color: #444;
@@ -682,7 +668,29 @@ template {
 		.active2:after {
 		    content: "\2212";
 		}
-
+		#row7 .underlined
+		{
+			width: 100px;
+		    height: 5px;
+		    background-color: #F0A833;
+		}
+		#row7
+		{
+			    padding: 30px;
+		}
+		#row7 .title
+		{
+			font-size: 24px;
+   			font-weight: 600;
+		}
+		#row7 a
+		{
+			color: #333;
+		}
+		#row7 .col-md-8
+		{
+			padding-right: 0px; padding-left: 0px;
+		}
 		.panel2 {
 		    padding: 0 18px;
 		    background-color: white;

@@ -1,20 +1,16 @@
 <!doctype html>
 <html>
 <head>
-	<title>LIKA LEARNING</title>
+	<title>Trang chủ</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href = "‪../../../bootstrap/css/bootstrap.css"> 
 	<link rel="stylesheet" href = "‪../../../bootstrap/css/bootstrap-theme.min.css"> 
 	<script src = "../../jquery-3.3.1.js">‪</script>
 	<!--<link rel="stylesheet" type="text/css" href="css_Lika_learning.css"> 	file css-->
 	<link rel="shortcut icon" href="//k12school.vn/wp-content/themes/porto/images/logo/favicon.ico" type="image/x-icon" />
-<!-- 	<script >
-		$(document).ready(function(){
-			$("#hq1").mouseenter(function(){
-				$("#1c").css('background-color','F0A833');
-			});
-		});
-	</script> -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
 	<style>
 		<?php include("css_trang_chu_lika.css"); ?>
 	</style>
@@ -140,60 +136,13 @@
 			
 		</div>
 	</div>
-	<div class = "row5">
-		<div class="col-xs-12 col-md-12">
-			<p style = "text-align: center;font-size: 30px;"><strong>Cảm nhận của phụ huynh học sinh</strong></p>
-			<div class = "tab">
-  <!-- Nav tabs -->
-		  <ul class="nav nav-tabs" role="tablist">
-		    <li role="presentation" class="active">
-		      <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-		      	<p style = "font-size: 14px;color: #333;"><strong>Mẹ bé Đỗ Trọng Hoàng Minh</strong></p>
-		      	<p style = "font-size: 14px;color: #333;color: #333;">Lớp 3 - Tiểu Học Dịch Vọng B Hà Nội</p>
+		<div style="text-align: center;padding: 45px;" id = "row5" class="col-xs-12 col-md-12">
+			<p style="    font-size: 35px;font-weight: 600;">Cộng đồng hơn 300 giáo viên tham gia hợp tác</p>
+			<p style="    padding: 0 14%;">Đội ngũ thầy Cô giáo giỏi, nhiều năm kinh nghiệm từ Vụ giáo dục tiểu học – Bộ GD & ĐT 
+		các trường tiểu học lớn, uy tín như: TH Kim Liên, TH Lê Văn Tám, TH Chu Văn An, THDL Đoàn Thị Điểm, TH Nguyễn Trãi,…</p>
+			<img style="max-width: 100%;height: auto;" src = '‪../../IMG2/giaovien_dentrang.jpg'>
+		</div>
 
-		      </a>
-		    </li>
-		    <li role="presentation">
-		      <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-				<p style = "font-size: 14px;color: #333;"><strong> Mẹ bé Trịnh Xuân Đăng</strong></p>
-		      	<p style = "font-size: 14px;color: #333;">Lớp 1 - Tiểu Học Thị Trấn Yên Viên</p>
-		      </a>
-		    </li>
-		    <li role="presentation">
-		      <a style="border: none;" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-		      	<p style = "font-size: 14px;color: #333;"><strong>Mẹ bé Phạm Minh Dũng</strong></p>
-		      	<p style = "font-size: 14px;color: #333;">Lớp 2 - Tiểu Học Lê Văn Tám Hà Nội</p>
-		      </a>
-		    </li>
-		  </ul>
-		  <!-- Tab panes -->
-		  <div class="tab-content">
-		    <div role="tabpanel" class="tab-pane active" id="home">
-		      	<div class="col-xs-12 col-md-5" style="text-align: center; margin-bottom: 20px;">
-		      		<img style="width: 100%;height: auto;" src = '‪../../IMG2/Layer-611.png'>
-		      	</div>
-		      	<div class="col-xs-12 col-md-7" style="font-size:14px;">“Tôi thấy tuyệt vời nhất là việc được trao đổi với giáo viên khi cho con học chương trình LIKA . Nhiều khi học trên lớp con không hiểu về nhà hỏi mẹ, mẹ giải thích không giống như cô nên rất khó để con nắm bắt. Khi học trên LIKA con hỏi và được cô hướng dẫn ngay nên con nắm được bài rất tốt. Điều này giúp con ngày càng hứng thú với việc học hơn. Tôi rất yên tâm. ”</div>
-
-		      </div>
-		    <div role="tabpanel" class="tab-pane" id="profile">
-		      <div class="col-xs-6 col-md-4" style="text-align: center;">
-		      		<h1>UPDATE1...</h1>
-		      		<!-- <img src = '‪../../IMG2/Layer-611.png'> -->
-		      	</div>
-		      	<div class="col-xs-12 col-md-8" style="font-size:14px;"><!-- “Tôi thấy tuyệt vời nhất là việc được trao đổi với giáo viên khi cho con học chương trình LIKA . Nhiều khi học trên lớp con không hiểu về nhà hỏi mẹ, mẹ giải thích không giống như cô nên rất khó để con nắm bắt. Khi học trên LIKA con hỏi và được cô hướng dẫn ngay nên con nắm được bài rất tốt. Điều này giúp con ngày càng hứng thú với việc học hơn. Tôi rất yên tâm. ” --></div>
-		    </div>
-		    <div role="tabpanel" class="tab-pane" id="messages">
-		      <div class="col-xs-6 col-md-4" style="text-align: center;">
-		      		<!-- <img src = '‪../../IMG2/Layer-611.png'> -->
-		      		<h1>UPDATE2...</h1>
-		      	</div>
-		      	<div class="col-xs-12 col-md-8" style="font-size:14px;"><!-- “Tôi thấy tuyệt vời nhất là việc được trao đổi với giáo viên khi cho con học chương trình LIKA . Nhiều khi học trên lớp con không hiểu về nhà hỏi mẹ, mẹ giải thích không giống như cô nên rất khó để con nắm bắt. Khi học trên LIKA con hỏi và được cô hướng dẫn ngay nên con nắm được bài rất tốt. Điều này giúp con ngày càng hứng thú với việc học hơn. Tôi rất yên tâm. ” --></div>
-		    </div>
-		   
-  		</div>
-	</div>
-		</div>		
-	</div>
 	<div id = "row6" class="col-xs-12 col-md-12">
 			<div class="col-xs-12 col-md-12">
 			<p style="text-align: center;font-size: 36px;"><strong>K12SCHOOL VÌ SỰ NGHIỆP GIÁO DỤC</strong></p>
@@ -210,42 +159,83 @@
 			</div>
 	</div>
 	<div id = "row7" class="col-xs-12 col-md-12">
-		<p style="text-align: center;font-size: 30px;"><strong>CÂU HỎI THƯỜNG GẶP</strong></p>
-		<button class="accordion" style="background-image: url('‪../../IMG2/1.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
-		<div class="panel2">
-		  <p>UPDATE...</p>
-		</div>
+			<div class="col-xs-12 col-md-4">
+				<p class = "title">Tin tức</p>
+				<div class = "underlined"></div>
+			<div style="padding-right: 0px; padding-left: 0px; margin-top: 30px;" class="col-xs-12 col-md-12">
+				<div style="padding-right: 0px; padding-left: 0px;" class="col-xs-12 col-md-4">
+					<a href = ""><img src = '‪../../IMG2/Layer-467.png'></a>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<a><p>20/11/2017<br /><br />3 điều ấn tượng khiến bữa ăn trưa của học sinh Nhật Bản được nhiều người đánh giá là hoàn hảo nhất thế giới</p></a>
+				</div>
+			</div>
+			<div style="padding-right: 0px; padding-left: 0px; margin-top: 30px;" class="col-xs-12 col-md-12">
+				<div style="padding-right: 0px; padding-left: 0px;" class="col-xs-12 col-md-4">
+					<a href = ""><img src = '‪../../IMG2/Layer-468.png'></a>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<a><p>20/11/2017<br /><br />Đừng phó thác cho giáo viên, dạy con cho tốt, đó mới là sự nghiệp trọng đại nhất của bạn</p></a>
+				</div>
+			</div>
+			<div style="padding-right: 0px; padding-left: 0px; margin-top: 30px;" class="col-xs-12 col-md-12">
+				<div style="padding-right: 0px; padding-left: 0px;" class="col-xs-12 col-md-4">
+					<a href = ""><img src = '‪../../IMG2/Layer-469.png'></a>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<a><p>20/11/2017<br /><br />Cuộc đối thoại kinh điển giữa mẹ và con: Không học không chết, thái độ như nào mới quan trọng.</p></a>
+				</div>
+			</div>
+			<div style="padding-right: 0px; padding-left: 0px; margin-top: 10px;" class="col-xs-12 col-md-12">
+			<a style="color: #428bca;" href ="">Xem thêm&nbsp&nbsp<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
 
-		<button class="accordion" style="background-image: url('‪../../IMG2/2.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
-		<div class="panel2">
-		  <p>UPDATE...</p>
-		</div>
-		
-		<!-- Accordion -->
-		<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<p class = "title">Sự kiện</p>
+				<div class = "underlined"></div>
+				<div style="padding-right: 0px; padding-left: 0px; margin-top: 30px;" class="col-xs-12 col-md-12">
+				<div style="padding-right: 0px; padding-left: 0px;" class="col-xs-12 col-md-4">
+					<a href = ""><img src = '‪../../IMG2/Layer-470.png'></a>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<a><p>30/11/2017<br /><br />Hợp tác LIKA - Trung tâm Anh ngữ AMES: Cơ hội vàng để học sinh phát triển toàn vẹn</p></a>
+				</div>
+			</div>
+			<div style="padding-right: 0px; padding-left: 0px; margin-top: 43px;" class="col-xs-12 col-md-12">
+				<div style="padding-right: 0px; padding-left: 0px;" class="col-xs-12 col-md-4">
+					<a href = ""><img src = '‪../../IMG2/Layer-471.png'></a>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<a><p>29/06/2017<br /><br />Hàng chục chiếc Samsung Galaxy Tab 4 trao tay, LIKA đã giúp học sinh tiến bộ từng ngày</p></a>
+				</div>
+			</div>
+			<div style="padding-right: 0px; padding-left: 0px; margin-top: 30px;" class="col-xs-12 col-md-12">
+				<div style="padding-right: 0px; padding-left: 0px;" class="col-xs-12 col-md-4">
+					<a href = ""><img src = '‪../../IMG2/Layer-472.png'></a>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<a><p>22/06/2017<br /><br />LIKA chính thức khởi động chương trình Thi đua hè 2017</p></a>
+				</div>
+			</div>
+			<div style="padding-right: 0px; padding-left: 0px; margin-top: 10px;" class="col-xs-12 col-md-12">
+			<a style="color: #428bca;" href ="">Xem thêm&nbsp&nbsp<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
 
-		for (i = 0; i < acc.length; i++) {
-		  acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active2");
-		    var panel2 = this.nextElementSibling;
-		    if (panel2.style.maxHeight){
-		      panel2.style.maxHeight = null;
-		    } else {
-		      panel2.style.maxHeight = panel2.scrollHeight + "px";
-		    } 
-		  });
-		}
-		</script>
-		<!-- <div class="col-xs-12 col-md-12">
-			<div class="col-xs-1 col-md-1"><p style="font-size: 26px;"><b>1</b></p></div><div class="col-xs-9 col-md-11"><p style="font-size: 17px;">LIKA-Learning khác LIKA-Tutor ở điểm gì?</p>
-		</div>
-		</div>
-		<div class="col-xs-12 col-md-12">
-			<div class="col-xs-1 col-md-1"><p style="font-size: 26px;"><b>2</b></p></div><div class="col-xs-9 col-md-11"><p style="font-size: 17px;">LIKA-Learning khác LIKA-Tutor ở điểm gì?</p>
-		</div>
-		</div> -->
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+				<p class = "title">Về chúng tôi</p>
+				<div class = "underlined"></div>
+				<div style="padding-right: 0px; padding-left: 0px; margin-top: 30px;" class="col-xs-12 col-md-12">
+					<img style="max-width: 100%;height: auto;" src = '‪../../IMG2/Layer-499.png'>
+					<p style="margin-top: 15px;"><b>K12school Edtech Group</b>được thành lập vào tháng 6/2013 với sứ mệnh ứng dụng công nghệ cao, công nghệ thông tin và Internet chung tay góp sức đưa giáo dục chất lượng cao đến cho học sinh Việt Nam</p>
+				</div>
+				<div style="padding-right: 0px; padding-left: 0px; margin-top: 10px;" class="col-xs-12 col-md-12">
+			<a style="color: #428bca;" href ="">Xem thêm&nbsp&nbsp<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+			</div>
+
 	</div>
 	<div id = "row8" class="col-xs-12 col-md-12">
 		<div class="col-xs-12 col-md-7">
