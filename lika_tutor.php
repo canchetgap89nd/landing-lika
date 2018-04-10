@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>LIKA LEARNING</title>
+	<title>LIKA TUTOR</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href = "‪../../../bootstrap/css/bootstrap.css"> 
 	<link rel="stylesheet" href = "‪../../../bootstrap/css/bootstrap-theme.min.css"> 
@@ -21,6 +21,7 @@
 </head>
 <body>
 	<div class = "container-fluid">
+		<div class = "row">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -45,23 +46,19 @@
             
       </div>
     </div>
-      <div id ='caption-carousel'  class="col-xs-7 col-md-7">
+      <div id ='caption-carousel'  class="col-xs-10 col-md-7">
       	<p id ="title1">LIKA- TUTOR</p>
         <p id ="title2">LIKA - Tutor giúp việc học tại nhà với giáo viên giỏi trở lên vô cùng đơn giản. Phụ huynh, học sinh không phải mất công đi lại, đưa đón vất vả, tốn thòi gian.</p>
         <button>TẢI NGAY</button>
       </div>
-
-    
-  </div> <!-- END slide -->
-
+ 		 </div> <!-- END slide -->
 		</div>
+	<div class =  "row">
 		<div id = "content-box" class="col-xs-12 col-md-12" >
 			<div class="col-xs-12 col-md-12">
-			<p style = "font-size: 28px; text-align: center;font-family: roboto;"><strong>Những hiệu quả nổi bật mà LIKA - TUTOR đem lại</strong></p>
-			<p style = "font-size: 17px; text-align: center;font-family: roboto;">Việc học trực tuyến với giáo viên chưa bao giờ dễ dàng và hiệu quả đến thế</p>
+			<p style = "font-size: 31px; text-align: center;font-family: roboto;"><strong>Những hiệu quả nổi bật mà LIKA - TUTOR đem lại</strong></p>
+			<p style = "font-size: 22px; text-align: center;font-family: roboto;">Việc học trực tuyến với giáo viên chưa bao giờ dễ dàng và hiệu quả đến thế</p>
 			</div>
-			<div class  = "row1">
-			<div class="row">
 				<div id = "hieu-qua" class="col-xs-12 col-md-12">
 					 <div style="text-align: center;" class="col-xs-12 col-md-6"><img src = "IMG2\Layer-553.png"></div>
   					 <div class="col-xs-12 col-md-6">
@@ -71,31 +68,29 @@
 						<div id = "3c" class="col-xs-1 col-md-1">3</div><div id ="hq3" class="col-xs-11 col-md-11" style = "margin-bottom: 20px;"><b>Cha mẹ nhận được kết quả học của con ngay sau mỗi buổi học</b><br />Phần giải thích sau mỗi câu hỏi, bài tập, đặc biệt những lĩnh vực liên quan đến khoa học tự nhiên, xã hội được thầy/cô giáo LIKA biên tập và chọn lọc kĩ lưỡng, vừa đảm bảo đúng, đủ kiến thức, vừa mở rộng thêm hiểu biết cho con.</div>						
   					 </div>
 				</div>
-			</div>
 		</div>
 	</div>
-	<div class = row3>
+	<div id = "nhung-tinh-nang-noi-bat" class = row>
 	<div class="col-xs-12 col-md-12">
 		<p style = "text-align: center; margin: 30px 0px;  font-size: 25px; color: #fff;"><strong>NHỮNG TÍNH NĂNG NỔI TRỘI CỦA  LIKA - TUTOR</strong></p>
-		  <div class="col-md-4">
+		  <div class="col-xs-8 col-md-4">
 		  		<b><p class = "txt-row">Công nghệ hiện đại, đơn giản để học</p></b>
 		  		<img style = "margin-top: 24px;" src = '‪../../IMG2/Layer-554.png'>
 		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;">Với công nghệ hiện đại, giao diện bắt mắt và dễ sử dụng, LIKA giúp việc giao tiếp giữa học sinh và giáo viên trở nên thật đơn giản.  </p>
 		  </div>
- 		  <div class="col-md-4">
+ 		  <div class="col-xs-8 col-md-4">
  		  		<b><p class = "txt-row">Dịch vụ 5 SAO, nhắc lịch</p></b>
  		  		<img style = "margin-top: 24px;" src = '‪../../IMG2/Layer-548.png'>
 		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;padding-top: 40px;">Lịch học hàng tuần với giáo viên được định sẵn, trước mỗi buổi học con dược nhắc nhở, đảm bảo không bỏ lỡ bất cứ buổi học nào. </p>
  		  </div>
-  		  <div class="col-md-4">
+  		  <div class="col-xs-8 col-md-4">
   		  		<b><p class = "txt-row">Giáo viên nắm được lực học và điều chỉnh được nội dung phù hợp với từng học sinh</p></b>
   		  		<img  src = '‪../../IMG2/Layer-5541.png'>
 		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;padding-top: 38px;">Với việc học trực triếp với giáo viên, giúp giáo viên nắm bắt được lực học của từng học sinh từ đó xây dựng và điều chỉnh bài giảng phù hợp với các bé</p>
-  		  </div>
-  		 
+  		  </div>	 
+		</div>
 	</div>
-	</div>
-	<div class = "row4">
+	<div id ="tai-ung-dung" class = "row">
 		<div class="col-xs-12 col-md-12">
 			<p style = "text-align: center; margin: 30px 0px;  font-size: 25px; color: #fff;"><strong>Tải ứng dụng LIKA</strong></p>
 			
@@ -107,17 +102,17 @@
   					<img src = '‪../../IMG2/or.png'>
   				</div>
   				<div class="col-xs-12 col-md-5" style=" margin: 35px 0px;">
-  					<div class = "download">
+  					<div class = "img-download">
   					<a href = "#"><img style="height: auto;width: 100%;" src = '‪../../IMG2/Layer-16.png'></a>
   					</div>
-  					<div class = "download">
+  					<div class = "img-download">
   					<a href = "#"><img style="height: auto;width: 100%;" src = '‪../../IMG2/Layer-171.png'></a>
   					</div>
   				</div>
 			
 		</div>
 	</div>
-	<div class = "row5">
+	<div id = "cam-nhan-phu-huynh" class = "row">
 		<div class="col-xs-12 col-md-12">
 			<p style = "text-align: center;font-size: 30px;"><strong>Cảm nhận của phụ huynh học sinh</strong></p>
 			<div class = "tab">
@@ -171,7 +166,8 @@
 	</div>
 		</div>		
 	</div>
-	<div id = "row6" class="col-xs-12 col-md-12">
+	<div id = "k12-vi-su-nghiep-gd" class = "row">
+	<div class="col-xs-12 col-md-12">
 			<div class="col-xs-12 col-md-12">
 			<p style="text-align: center;font-size: 36px;"><strong>K12SCHOOL VÌ SỰ NGHIỆP GIÁO DỤC</strong></p>
 			<p style="font-size: 17px;text-align: center;color:#747474;">Nhờ sự đầu tư bài bản và nghiêm túc về công nghệ, nội dung học liệu, chất lượng dịch vụ, đội ngũ giáo viên, cùng tâm huyết của những nhà sáng lập có trên 10 năm kinh nghiệm xây dựng các chương trình E-learning chất lượng cao, đến nay hệ thống LIKA -K12school đã giúp hơn 20.000 học sinh cả nước học tập tiến bộ mỗi ngày, giúp hơn 40.000 cha, mẹ có được giải pháp hỗ trợ con học tập tại nhà hiệu quả.</p>
@@ -186,14 +182,16 @@
   			</div>
 			</div>
 	</div>
-	<div id = "row7" class="col-xs-12 col-md-12">
+</div>
+	<div id = "cau-hoi-thuong-gap" class = "row">
+	<div class="col-xs-12 col-md-12">
 		<p style="text-align: center;font-size: 30px;"><strong>CÂU HỎI THƯỜNG GẶP</strong></p>
-		<button class="accordion" style="background-image: url('‪../../IMG2/1.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
+		<button class="accordion" style="background-image: url('‪../../IMG2/1.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
 		<div class="panel2">
 		  <p>UPDATE...</p>
 		</div>
 
-		<button class="accordion" style="background-image: url('‪../../IMG2/2.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
+		<button class="accordion" style="background-image: url('‪../../IMG2/2.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
 		<div class="panel2">
 		  <p>UPDATE...</p>
 		</div>
@@ -224,29 +222,8 @@
 		</div>
 		</div> -->
 	</div>
-	<div id = "row8" class="col-xs-12 col-md-12">
-		<div class="col-xs-12 col-md-7">
-			<img src = '‪../../IMG2/Layer-21.png'>
-			<p style="margin: 30px 0px;font-size: 15px;	"><strong>CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐÀO TẠO K12SCHOOL</strong></p>
-			<p style="font-size: 14px;line-height: 25px;"><strong>MST: 0106197067<br />Đại diện: Ông Phạm Quốc Cường<br />Trụ sở chính: Toà nhà SÁNG TẠO, số 70, ngõ 27, Đại Cồ Việt, Hà Nội</strong></p>
-			<p style="	font-size: 14px;line-height: 25px;"><strong>LIÊN HỆ<br />0246 682 0123 |  info@k12school.vn</strong></p>
-		</div>
-		<div style="margin: 91px 0px;" class="col-xs-12 col-md-5">
-		<div class="col-xs-6 col-md-6">
-			<p style="margin: 30px 0px;font-size: 15px;	"><strong>CÔNG TY</strong></p>
-			<p style="font-size: 14px;line-height: 25px;"><strong>Về chúng tôi<br />Blog<br />Tuyển dụng</strong></p>
-		</div>
-		<div class="col-xs-6 col-md-6">
-			<p style="margin: 30px 0px;font-size: 15px;	"><strong>CHƯƠNG TRÌNH</strong></p>
-			<p style="font-size: 14px;line-height: 25px;"><strong>LIKA-Learning<br />Blog<br />LIKA-Tutor</strong></p>
-		</div>
-			<p style="margin: 15px;font-size: 14px;	"><strong>HÃY LIÊN LẠC THƯỜNG XUYÊN NHÉ!</strong></p>
-			<a style="margin: 15px;" href = "#"><img src = '‪../../IMG2/Layer-22.png'></a>
-			<a href = "#"><img src = '‪../../IMG2/Layer-99.png'></a>
-
-		</div>
-		<hr />
-	</div>
+</div>
+	<?php include("footer_lika.php"); ?>
 	</div> <!-- end container -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src ="‪../../../bootstrap/js/bootstrap.min.js"></script>

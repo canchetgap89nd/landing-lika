@@ -340,48 +340,38 @@ template {
 [hidden] {
   display: none;
 } /*end reset css*/
-		.container-fluid
-		{
-		  padding-left: 0px;
-   		  padding-right: 0px;
-		}
-/*		#header{
-		  background-image: url('‪../../IMG2/banner_lika_learning.png');
-		  background-repeat: repeat-y;
-		  width:100%;
-		  height:100%; 
-		  margin: 40px 0px;	
-		  padding: 95px 65px;
-		}
-*/		.row3 .col-md-12
+		#nhung-tinh-nang-noi-bat .col-md-12
 		{
 			background-image: url('‪../../IMG2/Layer-24.png');
 		    background-repeat: repeat;
 		    height: auto;
-		    width: auto;
+		    width: 100%;
 		}
-		.row4 .col-md-12
+		#tai-ung-dung .col-md-12
 		{
 			background-image: url('‪../../IMG2/download.jpg');
 		    background-repeat: repeat;
 		    height: auto;
+		    background-position: center center;
+		    background-repeat: no-repeat;
+		    
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
 		}
 		#myCarousel div #title1
 		{
 			font-weight: 600;
-			font-size: 85px;
+			font-size: 97px;
 			color: #fff;
 			text-shadow: 3px 2px 8px #333;
 		}
 		#myCarousel div #title2
 		{
-			font-size: 18px;
+			font-size: 22px;
 			font-family: Roboto;
 			color: #fff;
-		}
-		.item img
-		{
-			min-height: 380px;
 		}
 		#caption-carousel
 		{
@@ -401,19 +391,6 @@ template {
 		    font-size: 17px;
 		    font-family: roboto;
 		}
-		/*#header div #title1
-		{
-			font-size: 53px;
-			font-family: Roboto;
-			color: #fff;
-			text-shadow: 3px 2px 8px #333;
-		}
-		#header div #title2
-		{
-			font-size: 18px;
-			font-family: Roboto;
-			color: #fff;
-		}*/
 		#box-top2
 		{
 			width: 627px;
@@ -430,13 +407,6 @@ template {
 		    font-size: 17px;
 		    font-family: roboto;
 		}
-/*		#clear-fix
-		{
-			content: ".";
-		    clear: both;
-		    display: table;
-		    visibility: hidden;
-		}*/
 		#content-box
 		{
 			height: auto;
@@ -469,17 +439,17 @@ template {
 		.row2{
 			margin: 50px 0;
 		}
-		.row3 >	.col-md-12
+		#nhung-tinh-nang-noi-bat >	.col-md-12
 		{
 		   padding: 0px 112px;
 
 		}
-		.row5 .col-md-12
+		#cam-nhan-phu-huynh .col-md-12
 		{
 		   padding: 20px 90px;
 
 		}
-		.row3 .col-md-4
+		#nhung-tinh-nang-noi-bat .col-md-4
 		{
 			border: 1px solid #fff;
 			width: 335px;
@@ -488,30 +458,26 @@ template {
 			padding: 20px 0px;
 			text-align: center;
 			background-color: #fff;
-			height: 365px;
+			height: 385px;
 		}
-/*		.row3 .col-md-4:hover
-		{
-			border: 4px solid #F0A833;
-		}*/
 		.txt-row
 		{
     		font-size: 16px;
   			font-family: roboto;
 
 		}
-		.row3 img
+		#nhung-tinh-nang-noi-bat img
 		{
 			height: auto;
 			max-width: 100%;
 			vertical-align: top;
 		}
-		.row4 >.col-md-12
+		#tai-ung-dung >.col-md-12
 		{
 			padding: 0 24%;
 			height: auto;
 		}
-		.download
+		.img-download
 		{
 			margin: 10px 0px;
 		}
@@ -552,50 +518,61 @@ template {
 			    margin: 30px 0px;
 
 		}
-		#row6
+		#k12-vi-su-nghiep-gd>.col-md-12
 		{
 			 padding: 20px 30px;
 			 background-image: url('‪../../IMG2/Rectangle-16.png');
 			 background-repeat: repeat;
+			 background-position: center center;
+		    background-repeat: no-repeat;
+		    
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
 		}
-		#row6 .col-md-12
+		#k12-vi-su-nghiep-gd>.col-md-12>.col-md-12
 		{
 			background-color: #fff;
 			padding: 30px;
 			border-radius: 25px;
 		}
-		#row6 .col-md-7
+		#k12-vi-su-nghiep-gd .col-md-7
 		{
 			 margin-top: 38px;
    			line-height: 25px;
 		}
-		#row6 .col-md-5
+		#k12-vi-su-nghiep-gd .col-md-5
 		{
 			 margin-top: 38px;
 		}
-		#row7
+		#cau-hoi-thuong-gap>.col-md-12
 		{
 			 padding: 20px 90px;
 			 margin-bottom: 30px;
 		}
-		#row7 .col-md-12
+		/*#cau-hoi-thuong-gap>.col-md-12
 		{
 			background-color: #F7F9F9;
 			padding: 0px;
 			 border: 1px solid;
    			 border-radius: 8px;
     		margin-top: 20px;
-		}
-		#row7 .col-md-1
+		}*/
+		#cau-hoi-thuong-gap .col-md-1
 		{
 			background-color: #F5B041;
    			text-align: center;
        		border-bottom-left-radius: 7px;
     		border-top-left-radius: 7px;
 		}
-		#row7 .col-md-11
+		#cau-hoi-thuong-gap .col-md-11
 		{
 			margin-top: 11px;
+		}
+		#cau-hoi-thuong-gap span{
+			padding: 0px 80px;
+			display: inline-block;	
 		}
 		.accordion {
 		    background-color: #eee;
@@ -635,12 +612,185 @@ template {
 		    overflow: hidden;
 		    transition: max-height 0.2s ease-out;
 		}
-		#row8
+		@media (max-width: 1335px)
 		{
-			background-color: #333;
-			padding: 20px 90px;
+			#nhung-tinh-nang-noi-bat .col-md-4{
+				width: 321px;
+				margin: 17px 23px;
+			}
 		}
-		#row8 p
+		@media (max-width: 1325px)
 		{
-			color: #fff;
+			#nhung-tinh-nang-noi-bat .col-md-4{
+			width: 307px;
+    		margin: 17px 25px;
+			}
+		}
+		@media (max-width: 1295px)
+		{
+			#nhung-tinh-nang-noi-bat .col-md-4{
+			    width: 295px
+			}
+		}
+		@media (max-width: 1253px)
+		{
+			#nhung-tinh-nang-noi-bat .col-md-4{
+			    width: 287px
+			}
+		}
+		@media (max-width: 1228px)
+		{
+			#nhung-tinh-nang-noi-bat .col-md-4{
+			    width: 267px
+			}
+		}
+		@media (max-width: 1171px)
+		{
+			#nhung-tinh-nang-noi-bat .col-md-4{
+			    width: 257px
+			}
+		}
+		@media (max-width: 1141px)
+		{
+			#nhung-tinh-nang-noi-bat .col-md-4{		    
+			    width: 232px;
+			    margin: 17px 35px;
+			}
+		}
+		@media (max-width: 1119px)
+		{
+			#nhung-tinh-nang-noi-bat .col-md-4{		    
+			    width: 100%;
+    			margin: 16px 0px;
+			}
+			#nhung-tinh-nang-noi-bat .col-md-4 p:first-child{
+				    font-size: 31px !important;
+			}
+			#nhung-tinh-nang-noi-bat .col-md-4 p{
+				    font-size: 24px !important;
+			}
+		}
+		@media (max-width: 982px){
+			#nhung-tinh-nang-noi-bat .col-md-4 p{
+				    font-size: 20px !important;
+			}
+		}
+		@media (max-width: 803px){
+			#nhung-tinh-nang-noi-bat .col-md-4 p{
+				    font-size: 18px !important;
+			}
+			#nhung-tinh-nang-noi-bat .col-md-4 p:first-child{
+				    font-size: 27px !important;
+			}
+		}
+		@media (max-width: 701px){
+			#nhung-tinh-nang-noi-bat .col-md-4 p{
+				    font-size: 18px !important;
+			}
+			#nhung-tinh-nang-noi-bat .col-md-4 p:first-child{
+				    font-size: 23px !important;
+			}
+		}
+		@media (max-width: 633px){
+			#nhung-tinh-nang-noi-bat .col-md-4 p{
+				    font-size: 16px !important;
+			}
+			#nhung-tinh-nang-noi-bat .col-md-4 p:first-child{
+				    font-size: 20px !important;
+			}
+		}
+		@media (max-width: 582px){
+			#nhung-tinh-nang-noi-bat > .col-md-12{
+				    padding: 0px 86px;
+			}
+			#nhung-tinh-nang-noi-bat .col-md-4 p{
+				    font-size: 15px !important;
+			}
+			#nhung-tinh-nang-noi-bat .col-md-4 p:first-child{
+				    font-size: 18px !important;
+			}
+		}
+		@media (max-width: 486px)
+		{
+			#nhung-tinh-nang-noi-bat > .col-md-12{
+				    padding: 0px 51px;
+			}
+		}
+		@media (max-width: 1114px){
+			#myCarousel div #title2{
+				font-size: 19px;
+			}
+			#myCarousel div #title1{
+				font-size: 81px;
+			}
+		}
+		@media (max-width: 929px){
+			#myCarousel div #title2{
+				font-size: 16px;
+			}
+			#myCarousel div #title1{
+				font-size: 65px;
+			}
+		}
+		@media (max-width: 758px){
+			#myCarousel div #title2{
+				font-size: 11px;
+			}
+			#myCarousel div #title1{
+				font-size: 53px;
+			}
+		}
+		@media (max-width: 630px){
+			#caption-carousel{
+				bottom: 3%;
+			}
+			#myCarousel div #title2{
+				font-size: 11px;
+			}
+			#myCarousel div #title1{
+				font-size: 39px;
+			}
+		}
+		@media (max-width: 490px){
+			#myCarousel div #title1{
+				font-size: 28px;
+			}
+		}
+		@media (max-width: 450px){
+			#caption-carousel{
+				left: 19px;
+			}
+			#myCarousel div #title1{
+				font-size: 19px;
+			}
+			#myCarousel div #title2{
+				font-size: 10px;
+			}
+			#myCarousel button{
+				width: 114px;
+    			height: 25px;
+    			font-size: 13px;
+			}
+		}
+		@media (max-width: 369px){
+			#myCarousel div #title2{
+				font-size: 9px;
+			}
+			#myCarousel div #title1{
+				font-size: 16px;
+			}
+		}
+		@media (max-width: 450px){
+			#myCarousel button{
+				width: 90px;
+    			height: 16px;
+    			font-size: 9px;
+			}
+		}
+		@media (max-width: 350px){
+			#cau-hoi-thuong-gap span{
+				padding: 0px 63px;
+    			display: inline-block;
+    			font-size: 14px;
+			}
 		}

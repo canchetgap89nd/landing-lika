@@ -6,82 +6,52 @@
 	<link rel="stylesheet" href = "‪../../../bootstrap/css/bootstrap.css"> 
 	<link rel="stylesheet" href = "‪../../../bootstrap/css/bootstrap-theme.min.css"> 
 	<script src = "../../jquery-3.3.1.js">‪</script>
-	<!--<link rel="stylesheet" type="text/css" href="css_Lika_learning.css"> 	file css-->
 	<link rel="shortcut icon" href="//k12school.vn/wp-content/themes/porto/images/logo/favicon.ico" type="image/x-icon" />
-<!-- 	<script >
-		$(document).ready(function(){
-			$("#hq1").mouseenter(function(){
-				$("#1c").css('background-color','F0A833');
-			});
-		});
-	</script> -->
+
 	<style>
 		<?php include("css_Lika_learning.css"); ?>
 	</style>
 </head>
 <body>
-	<div class = "container-fluid">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+ 	<div class = "container-fluid">
+	<div class = "row">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="‪../../IMG2/banner_lika_learning.png" alt="...">
-      </div>
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+		      <div class="item active">
+		        <img src="‪../../IMG2/banner_lika_learning.png" alt="...">
+		      </div>
 
-      <div class="item">
-        <img src="‪../../IMG2/Banner_trangchu.jpg" alt="...">
+		      <div class="item">
+		        <img src="‪../../IMG2/Banner_trangchu.jpg" alt="...">
 
-      </div>
-    
-      <div class="item">
-        <img src = '‪../../IMG2/banner_likatutor.jpg'>
-            
-      </div>
-    </div>
-      <div id ='caption-carousel'  class="col-xs-7 col-md-7">
-      	<p id ="title1">LIKA-Learning</p>
-        <p id ="title2">LIKA-Learning là chương trình giúp con tự học, tự ôn luyện tại nhà với nội dung được đội ngũ giáo viên giỏi và hội đồng khoa học uy tín xây dung từ cơ bản đến nâng cao đủ các môn chính khóa.</p>
-        <button>TẢI NGAY</button>
-      </div>
-
-    <!-- Left and right controls -->
-   <!--  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a> -->
-    <!-- END controls -->
-  </div> <!-- END slide -->
-		
-		<!-- <div id ="header" class="col-xs-12 col-md-12">
-			<div class="col-xs-12 col-md-12">
-				<p id ="title1">LIKA-Learning</p>
-			</div>
-			<div  class="col-xs-12 col-md-7">
-				<p id ="title2">LIKA-Learning là chương trình giúp con tự học, tự ôn luyện tại nhà với nội dung được đội ngũ giáo viên giỏi và hội đồng khoa học uy tín xây dung từ cơ bản đến nâng cao đủ các môn chính khóa.</p>
-			</div>
-			<div class="col-xs-12 col-md-12">
-			<button>TẢI NGAY</button>
-		</div> //header ảnh
- -->
-
-		</div>
+		      </div>
+		    
+		      <div class="item">
+		        <img src = '‪../../IMG2/banner_likatutor.jpg'>
+		            
+		      </div>
+		    </div>
+		      <div id ='caption-carousel'  class="col-xs-10 col-md-7">
+		      	<p id ="title1">LIKA-Learning</p>
+		        <p id ="title2">LIKA-Learning là chương trình giúp con tự học, tự ôn luyện tại nhà với nội dung được đội ngũ giáo viên giỏi và hội đồng khoa học uy tín xây dung từ cơ bản đến nâng cao đủ các môn chính khóa.</p>
+		       
+		      </div>
+		  </div> <!-- END slide -->
+	</div>
+		<div class = "row">
 		<div id = "content-box" class="col-xs-12 col-md-12" >
 			<div class="col-xs-12 col-md-12" style="margin-top: 30px;">
-			<p style = "font-size: 28px; text-align: center;font-family: roboto;"><strong>Những hiệu quả nổi bật mà LIKA - LEARNING đem lại</strong></p>
-			<p style = "font-size: 17px; text-align: center;font-family: roboto;">Việc học tập chưa bao giờ dễ dàng và hiệu quả đến thế</p>
+			<p style = "font-size: 31px; text-align: center;font-family: roboto;"><strong>Những hiệu quả nổi bật mà LIKA - LEARNING đem lại</strong></p>
+			<p style = "font-size: 22px; text-align: center;font-family: roboto;">Việc học tập chưa bao giờ dễ dàng và hiệu quả đến thế</p>
 			</div>
-			<div class  = "row1">
 			<div class="row">
 				<div  class="col-xs-12 col-md-12">
 					 <div style="text-align: center;" class="col-xs-12 col-md-6"><img src = "IMG2\img1_lika_learning.png"></div>
@@ -94,9 +64,7 @@
   					 </div>
 				</div>
 			</div>
-		</div>
-		<div class = "row2">
-			<div class="row">
+			<div style="margin: 50px 0;" class="row">
 				<div class="col-xs-12 col-md-12">
   					 <div class="col-xs-12 col-md-6">
   					 	<p style = "font-size: 27px; text-align: right;font-family: roboto; padding: 0px 60px;">HIỆU QUẢ VỚI CHA MẸ  </p>			
@@ -107,44 +75,48 @@
 
 			</div>
 		</div>
-	</div> <!-- end row2 -->
 	</div>
-	<div class = row3>
+</div>
+	<div  id = "nhung-hieu-qua-noi-bat" class = row>
 	<div class="col-xs-12 col-md-12">
 		<p style = "text-align: center; margin: 30px 0px;  font-size: 25px; color: #fff;"><strong>NHỮNG TÍNH NĂNG NỔI TRỘI CỦA LIKA - LEARNING</strong></p>
-		  <div class="col-md-4">
-		  		<b><p class = "txt-row">Chuẩn kiến thức của Bộ GD&ĐT</p></b>
+			<div class="col-xs-12  col-md-12">
+		  <div class="col-xs-12 col-sm-12 col-md-4">
+		  		<b><p class = "title-hqnb">Chuẩn kiến thức của Bộ GD&ĐT</p></b>
 		  		<img src = '‪../../IMG2/Layer-17.1.png'>
-		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;">Chương trình LIKA được thiết kế theo lộ trình 35 tuần học trên lớp với đủ các môn chính khóa: Toán, Tiếng việt, Khoa-Sử-Địa, Toán tiếng Anh. </p>
+		  		<p class =  "txt-hqnb" style = " text-align: justify; padding: 20px;font-family: roboto;">Chương trình LIKA được thiết kế theo lộ trình 35 tuần học trên lớp với đủ các môn chính khóa: Toán, Tiếng việt, Khoa-Sử-Địa, Toán tiếng Anh. </p>
 		  </div>
- 		  <div class="col-md-4">
- 		  		<b><p class = "txt-row">Hướng dẫn và kiểm tra con học từ xa</p></b>
+ 		  <div class="col-xs-12 col-sm-12 col-md-4">
+ 		  		<b><p class = "title-hqnb">Hướng dẫn và kiểm tra con học từ xa</p></b>
  		  		<img style = "margin-top: 9px;" src = '‪../../IMG2/Layer-43(2).png'>
-		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;padding-top: 40px;">Công nghệ LIKA-Realtime giúp cha mẹ khi ở cơ quan hoặc đi công tác xa vẫn trực tiếp xem được con đang học gì trên LIKA và có thể trao đổi, hướng dẫn con ngay trên hệ thống một cách dễ dàng. </p>
+		  		<p class =  "txt-hqnb" style = "text-align: justify; padding: 20px;font-family: roboto;padding-top: 40px;">Công nghệ LIKA-Realtime giúp cha mẹ khi ở cơ quan hoặc đi công tác xa vẫn trực tiếp xem được con đang học gì trên LIKA và có thể trao đổi, hướng dẫn con ngay trên hệ thống một cách dễ dàng. </p>
  		  </div>
-  		  <div class="col-md-4">
-  		  		<b><p class = "txt-row">Giáo viên hỗ trợ con học tập 24/7</p></b>
+  		  <div class="col-xs-12 col-sm-12 col-md-4">
+  		  		<b><p class = "title-hqnb">Giáo viên hỗ trợ con học tập 24/7</p></b>
   		  		<img style = "margin-top: 10px;" src = '‪../../IMG2/Layer-528.png'>
-		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;padding-top: 38px;">Hàng ngày, khi gặp bài tập khó, các con được thỏa thích đặt câu hỏi thắc mắc, giáo viên giỏi của LIKA sẽ giải đáp con trong vòng 24 giờ.   </p>
+		  		<p class =  "txt-hqnb" style = "text-align: justify; padding: 20px;font-family: roboto;padding-top: 38px;">Hàng ngày, khi gặp bài tập khó, các con được thỏa thích đặt câu hỏi thắc mắc, giáo viên giỏi của LIKA sẽ giải đáp con trong vòng 24 giờ.   </p>
   		  </div>
-  		  <div class="col-md-4">
-		  		<b><p class = "txt-row">Hoàn thiện kỹ năng trình bày với ``Phương pháp giải toán có lời văn`` và ``Tập làm văn``</p></b>
-		  		<img src = '‪../../IMG2/Layer-529.png'>
-		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;padding-top: 31px;">Không chỉ là những bài tập với dạng trắc nghiệm. LIKA còn giúp học sinh cải thiện đáng kể kỹ năng trình bày các bài Toán và cả “Tập làm văn” thông qua nhiều dạng bài tập phong phú như điền từ, sắp xếp, kéo thả... </p>
-		  </div>
- 		  <div class="col-md-4">
- 		  		<b><p class = "txt-row">Học Toán nâng cao theo chuẩn Châu Á - TBD</p></b>
- 		  		<img src = '‪../../IMG2/Layer-23.png'>
-		  		<p style = "font-size: 15px; text-align: justify; padding: 20px;font-family: roboto;padding-top: 35px;">Chương trìnhh Toán APMOPS được xây dựng trên kiến thức kỳ thi Olympic Toán học châu Á – Thái Bình Dương, đây là kỳ thi được các em học sinh ở rất nhiều quốc gia trên thế giới đón đợi và mong muốn chinh phục. </p>
- 		  </div>
-  		  <div class="col-md-4">
-  		  		<b><p class = "txt-row">Kiến thức không phải phần thưởng duy nhất trên LIKA</p></b>
-  		  		<img src = '‪../../IMG2/Layer-530.png'>
-		  		<p style = "font-size: 15px; text-align: justify; padding: 16px 20px;font-family: roboto;">Hàng ngày, khi gặp bài tập khó, các con được thỏa thích đặt câu hỏi thắc mắc, giáo viên giỏi của LIKA sẽ giải đáp con trong vòng 24 giờ.   </p>
-  		  </div>
+  		</div>
+  		<div class="col-xs-12 col-md-12">
+	  		  <div class="col-xs-12 col-sm-12 col-md-4">
+			  		<b><p class = "title-hqnb">Hoàn thiện kỹ năng trình bày với ``Phương pháp giải toán có lời văn`` và ``Tập làm văn``</p></b>
+			  		<img src = '‪../../IMG2/Layer-529.png'>
+			  		<p class =  "txt-hqnb" style = "text-align: justify; padding: 20px;font-family: roboto;padding-top: 31px;">Không chỉ là những bài tập với dạng trắc nghiệm. LIKA còn giúp học sinh cải thiện đáng kể kỹ năng trình bày các bài Toán và cả “Tập làm văn” thông qua nhiều dạng bài tập phong phú như điền từ, sắp xếp, kéo thả... </p>
+			  </div>
+	 		  <div class="col-xs-12 col-sm-12 col-md-4">
+	 		  		<b><p class = "title-hqnb">Học Toán nâng cao theo chuẩn Châu Á - TBD</p></b>
+	 		  		<img src = '‪../../IMG2/Layer-23.png'>
+			  		<p class =  "txt-hqnb" style = "text-align: justify; padding: 20px;font-family: roboto;padding-top: 35px;">Chương trìnhh Toán APMOPS được xây dựng trên kiến thức kỳ thi Olympic Toán học châu Á – Thái Bình Dương, đây là kỳ thi được các em học sinh ở rất nhiều quốc gia trên thế giới đón đợi và mong muốn chinh phục. </p>
+	 		  </div>
+	  		  <div class="col-xs-12 col-sm-12 col-md-4">
+	  		  		<b><p class = "title-hqnb">Kiến thức không phải phần thưởng duy nhất trên LIKA</p></b>
+	  		  		<img src = '‪../../IMG2/Layer-530.png'>
+			  		<p class = "txt-hqnb" style = " text-align: justify; padding: 16px 20px;font-family: roboto;">Hàng ngày, khi gặp bài tập khó, các con được thỏa thích đặt câu hỏi thắc mắc, giáo viên giỏi của LIKA sẽ giải đáp con trong vòng 24 giờ.</p>
+	  		  </div>
+  		</div>
 	</div>
 	</div>
-	<div class = "row4">
+	<div id = "tai-ung-dung" class = "row">
 		<div class="col-xs-12 col-md-12">
 			<p style = "text-align: center; margin: 30px 0px;  font-size: 25px; color: #fff;"><strong>Tải ứng dụng LIKA</strong></p>
 			
@@ -166,7 +138,7 @@
 			
 		</div>
 	</div>
-	<div class = "row5">
+	<div id = "cam-nhan-phu-huynh" class = "row">
 		<div class="col-xs-12 col-md-12">
 			<p style = "text-align: center;font-size: 30px;"><strong>Cảm nhận của phụ huynh học sinh</strong></p>
 			<div class = "tab">
@@ -203,7 +175,7 @@
 		      </div>
 		    <div role="tabpanel" class="tab-pane" id="profile">
 		      <div class="col-xs-6 col-md-4" style="text-align: center;">
-		      		<h1>UPDATE1...</h1>
+		      		<!-- Something -->
 		      		<!-- <img src = '‪../../IMG2/Layer-611.png'> -->
 		      	</div>
 		      	<div class="col-xs-12 col-md-8" style="font-size:14px;"><!-- “Tôi thấy tuyệt vời nhất là việc được trao đổi với giáo viên khi cho con học chương trình LIKA . Nhiều khi học trên lớp con không hiểu về nhà hỏi mẹ, mẹ giải thích không giống như cô nên rất khó để con nắm bắt. Khi học trên LIKA con hỏi và được cô hướng dẫn ngay nên con nắm được bài rất tốt. Điều này giúp con ngày càng hứng thú với việc học hơn. Tôi rất yên tâm. ” --></div>
@@ -211,16 +183,17 @@
 		    <div role="tabpanel" class="tab-pane" id="messages">
 		      <div class="col-xs-6 col-md-4" style="text-align: center;">
 		      		<!-- <img src = '‪../../IMG2/Layer-611.png'> -->
-		      		<h1>UPDATE2...</h1>
+		      		<!-- Something -->
 		      	</div>
 		      	<div class="col-xs-12 col-md-8" style="font-size:14px;"><!-- “Tôi thấy tuyệt vời nhất là việc được trao đổi với giáo viên khi cho con học chương trình LIKA . Nhiều khi học trên lớp con không hiểu về nhà hỏi mẹ, mẹ giải thích không giống như cô nên rất khó để con nắm bắt. Khi học trên LIKA con hỏi và được cô hướng dẫn ngay nên con nắm được bài rất tốt. Điều này giúp con ngày càng hứng thú với việc học hơn. Tôi rất yên tâm. ” --></div>
 		    </div>
 		   
   		</div>
-	</div>
+		</div>
 		</div>		
 	</div>
-	<div id = "row6" class="col-xs-12 col-md-12">
+	<div id = "k12-vi-su-nghiep-gd" class = "row">
+		<div  class="col-xs-12 col-md-12">
 			<div class="col-xs-12 col-md-12">
 			<p style="text-align: center;font-size: 36px;"><strong>K12SCHOOL VÌ SỰ NGHIỆP GIÁO DỤC</strong></p>
 			<p style="font-size: 17px;text-align: center;color:#747474;">Nhờ sự đầu tư bài bản và nghiêm túc về công nghệ, nội dung học liệu, chất lượng dịch vụ, đội ngũ giáo viên, cùng tâm huyết của những nhà sáng lập có trên 10 năm kinh nghiệm xây dựng các chương trình E-learning chất lượng cao, đến nay hệ thống LIKA -K12school đã giúp hơn 20.000 học sinh cả nước học tập tiến bộ mỗi ngày, giúp hơn 40.000 cha, mẹ có được giải pháp hỗ trợ con học tập tại nhà hiệu quả.</p>
@@ -234,68 +207,41 @@
   				<a target="_blank" href="https://www.youtube.com/watch?v=wWcYKZ3v9a4"><img style="width: 100%;height: auto; " src = '‪../../IMG2/Layer-73.png'></a>
   			</div>
 			</div>
+		</div>
 	</div>
-	<div id = "row7" class="col-xs-12 col-md-12">
-		<p style="text-align: center;font-size: 30px;"><strong>CÂU HỎI THƯỜNG GẶP</strong></p>
-		<button class="accordion" style="background-image: url('‪../../IMG2/1.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
-		<div class="panel2">
-		  <p>UPDATE...</p>
-		</div>
-
-		<button class="accordion" style="background-image: url('‪../../IMG2/2.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
-		<div class="panel2">
-		  <p>UPDATE...</p>
-		</div>
-		
-		<!-- Accordion -->
-		<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
-
-		for (i = 0; i < acc.length; i++) {
-		  acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active2");
-		    var panel2 = this.nextElementSibling;
-		    if (panel2.style.maxHeight){
-		      panel2.style.maxHeight = null;
-		    } else {
-		      panel2.style.maxHeight = panel2.scrollHeight + "px";
-		    } 
-		  });
-		}
-		</script>
-		<!-- <div class="col-xs-12 col-md-12">
-			<div class="col-xs-1 col-md-1"><p style="font-size: 26px;"><b>1</b></p></div><div class="col-xs-9 col-md-11"><p style="font-size: 17px;">LIKA-Learning khác LIKA-Tutor ở điểm gì?</p>
-		</div>
-		</div>
+	<div id = "cau-hoi-thuong-gap" class = "row">
 		<div class="col-xs-12 col-md-12">
-			<div class="col-xs-1 col-md-1"><p style="font-size: 26px;"><b>2</b></p></div><div class="col-xs-9 col-md-11"><p style="font-size: 17px;">LIKA-Learning khác LIKA-Tutor ở điểm gì?</p>
-		</div>
-		</div> -->
-	</div>
-	<div id = "row8" class="col-xs-12 col-md-12">
-		<div class="col-xs-12 col-md-7">
-			<img src = '‪../../IMG2/Layer-21.png'>
-			<p style="margin: 30px 0px;font-size: 15px;	"><strong>CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN ĐÀO TẠO K12SCHOOL</strong></p>
-			<p style="font-size: 14px;line-height: 25px;"><strong>MST: 0106197067<br />Đại diện: Ông Phạm Quốc Cường<br />Trụ sở chính: Toà nhà SÁNG TẠO, số 70, ngõ 27, Đại Cồ Việt, Hà Nội</strong></p>
-			<p style="	font-size: 14px;line-height: 25px;"><strong>LIÊN HỆ<br />0246 682 0123 |  info@k12school.vn</strong></p>
-		</div>
-		<div style="margin: 91px 0px;" class="col-xs-12 col-md-5">
-		<div class="col-xs-6 col-md-6">
-			<p style="margin: 30px 0px;font-size: 15px;	"><strong>CÔNG TY</strong></p>
-			<p style="font-size: 14px;line-height: 25px;"><strong>Về chúng tôi<br />Blog<br />Tuyển dụng</strong></p>
-		</div>
-		<div class="col-xs-6 col-md-6">
-			<p style="margin: 30px 0px;font-size: 15px;	"><strong>CHƯƠNG TRÌNH</strong></p>
-			<p style="font-size: 14px;line-height: 25px;"><strong>LIKA-Learning<br />Blog<br />LIKA-Tutor</strong></p>
-		</div>
-			<p style="margin: 15px;font-size: 14px;	"><strong>HÃY LIÊN LẠC THƯỜNG XUYÊN NHÉ!</strong></p>
-			<a style="margin: 15px;" href = "#"><img src = '‪../../IMG2/Layer-22.png'></a>
-			<a href = "#"><img src = '‪../../IMG2/Layer-99.png'></a>
+			<p style="text-align: center;font-size: 30px;"><strong>CÂU HỎI THƯỜNG GẶP</strong></p>
+			<button class="accordion" style="background-image: url('‪../../IMG2/1.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
+			<div class="panel2">
+			  <p>UPDATE</p>
+			</div>
 
+			<button class="accordion" style="background-image: url('‪../../IMG2/2.png'); background-repeat: no-repeat;background-size: 90px 100%;"><span style="    padding: 0px 80px;display: inline-block;"><b>LIKA-Learning khác LIKA-Tutor ở điểm gì?</b></span></button>
+			<div class="panel2">
+				 <p>UPDATE</p>
+			</div>
+			
+			<!-- Accordion -->
+			<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active2");
+			    var panel2 = this.nextElementSibling;
+			    if (panel2.style.maxHeight){
+			      panel2.style.maxHeight = null;
+			    } else {
+			      panel2.style.maxHeight = panel2.scrollHeight + "px";
+			    } 
+			  });
+			}
+			</script>
 		</div>
-		<hr />
 	</div>
+	<?php include("footer_lika.php"); ?>
 	</div> <!-- end container -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src ="‪../../../bootstrap/js/bootstrap.min.js"></script>

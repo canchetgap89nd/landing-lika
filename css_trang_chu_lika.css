@@ -340,32 +340,8 @@ template {
 [hidden] {
   display: none;
 } /*end reset css*/
-		.container-fluid
-		{
-		  padding-left: 0px;
-   		  padding-right: 0px;
-		}
-/*		#header{
-		  background-image: url('‪../../IMG2/banner_lika_learning.png');
-		  background-repeat: repeat-y;
-		  width:100%;
-		  height:100%; 
-		  margin: 40px 0px;	
-		  padding: 95px 65px;
-		}
-*/		.row3 .col-md-12
-		{
-			background-image: url('‪../../IMG2/Layer-24.png');
-		    background-repeat: repeat;
-		    height: auto;
-		    width: auto;
-		}
-		.row4 .col-md-12
-		{
-			background-image: url('‪../../IMG2/download.jpg');
-		    background-repeat: repeat;
-		    height: auto;
-		}
+		
+		
 		#myCarousel div #title1
 		{
 			font-weight: 600;
@@ -380,10 +356,6 @@ template {
 			font-weight: 600;
 			text-shadow: 3px 2px 8px #333;
 
-		}
-		.item img
-		{
-			min-height: 380px;
 		}
 		#caption-carousel
 		{
@@ -403,36 +375,9 @@ template {
 		    font-size: 17px;
 		    font-family: roboto;
 		}
-		/*#header div #title1
-		{
-			font-size: 53px;
-			font-family: Roboto;
-			color: #fff;
-			text-shadow: 3px 2px 8px #333;
-		}
-		#header div #title2
-		{
-			font-size: 18px;
-			font-family: Roboto;
-			color: #fff;
-		}*/
-		#box-top2
-		{
-			width: 627px;
-		}
-		#header button
-		{
-			margin-top: 9px;
-		    width: 230px;
-		    height: 40px;
-		    border: 1px solid #F0A833;
-		    border-radius: 9px;
-		    background-color: #F0A833;
-		    color: #fff;
-		    font-size: 17px;
-		    font-family: roboto;
-		}
-		#row3 button
+
+		
+		.container-fluid>.row+.row+.row button
 		{
 			margin-top: 9px;
 		    width: 230px;
@@ -456,13 +401,7 @@ template {
 		    font-family: roboto;
 		}
 
-/*		#clear-fix
-		{
-			content: ".";
-		    clear: both;
-		    display: table;
-		    visibility: hidden;
-		}*/
+
 		#content-box
 		{
 			height: auto;
@@ -473,21 +412,7 @@ template {
 		{
 			    margin-top: 50px;
 		}
-		/*.row .col-md-1
-		{
-			line-height: 32px;
-			height: 38px; 
-			width: 40px;
-			border: 2px solid #F0A833; 
-			border-radius: 100%;
-			text-align: center;
-			color: #F0A833;
-		}
-		.row .col-md-1:hover
-		{
-			color: #fff;
-			background-color: #F0A833;
-		}*/
+		
 		.row >.col-md-6>img {
 			height: auto;
 			max-width: 100%;
@@ -514,67 +439,21 @@ template {
 		.row2{
 			margin: 50px 0;
 		}
-		.row3 >	.col-md-12
-		{
-		   padding: 0px 112px;
-
-		}
+		
 		.row5 .col-md-12
 		{
 		   padding: 20px 90px;
 
 		}
-		.row3 .col-md-4
-		{
-			border: 1px solid #fff;
-			width: 335px;
-			margin: 17px 20px;
-			border-radius: 40px;
-			padding: 20px 0px;
-			text-align: center;
-			background-color: #fff;
-			height: 365px;
-		}
-/*		.row3 .col-md-4:hover
-		{
-			border: 4px solid #F0A833;
-		}*/
+		
 		.txt-row
 		{
     		font-size: 16px;
   			font-family: roboto;
 
 		}
-		.row3 img
-		{
-			height: auto;
-			max-width: 100%;
-			vertical-align: top;
-		}
-		#row31
-		{
-			background-image: url('‪../../IMG2/Layer-18-copy.png');
-			padding: 20px 20px;
-			background-position: center center;
-		}
-		#row31>p
-		{
-			text-align: center;
-			font-size: 37px;
-			color: #fff;
-			font-weight: 600;
-		}
-		#row31>.col-md-12
-		{
-			background-color: rgba(0,0,0,0.56);
-			padding: 40px;
-			margin-top: 33px;
-		}
-		.row4 >.col-md-12
-		{
-			padding: 0 24%;
-			height: auto;
-		}
+		
+		
 		.download
 		{
 			margin: 10px 0px;
@@ -602,6 +481,11 @@ template {
     		border-top-left-radius: 10px;
    			border-top-right-radius: 10px;
 		}
+		.container-fluid>.row+.row+.row+.row+.row>.col-md-12>p:first-child
+		{
+			font-size: 35px;
+   			font-weight: 600;
+		}
 		.nav-tabs > li > a
 		{
 			border-right: 1px solid #D0D3D4;
@@ -616,28 +500,6 @@ template {
 			    margin: 30px 0px;
 
 		}
-		#row6
-		{
-			 padding: 20px 30px;
-			 background-image: url('‪../../IMG2/Rectangle-16.png');
-			 background-repeat: repeat;
-		}
-		#row6 .col-md-12
-		{
-			background-color: #fff;
-			padding: 30px;
-			border-radius: 25px;
-		}
-		#row6 .col-md-7
-		{
-			 margin-top: 38px;
-   			line-height: 25px;
-		}
-		#row6 .col-md-5
-		{
-			 margin-top: 38px;
-		}
-		
 		.accordion {
 		    background-color: #eee;
 		    color: #444;
@@ -683,14 +545,14 @@ template {
 			font-size: 24px;
    			font-weight: 600;
 		}
-		#row7 a
+		a
 		{
 			color: #333;
 		}
-		#row7 .col-md-8
+		/*.col-md-8
 		{
 			padding-right: 0px; padding-left: 0px;
-		}
+		}*/
 		.panel2 {
 		    padding: 0 18px;
 		    background-color: white;
@@ -698,12 +560,157 @@ template {
 		    overflow: hidden;
 		    transition: max-height 0.2s ease-out;
 		}
-		#row8
+		.container-fluid>.row+.row+.row+.row+.row+.row>.col-md-12>.col-md-12 p:first-child
 		{
-			background-color: #333;
-			padding: 20px 90px;
+			font-size: 36px;
+			text-align: center;
 		}
-		#row8 p
+
+		/* Responsive */
+		@media (max-width: 1199px) {
+			#myCarousel div #title2 {
+				font-size: 56px;
+    			color: #fff;
+    			font-weight: 600;
+    			text-shadow: 3px 2px 8px #333;
+			}
+			#myCarousel div #title1{		    
+				font-weight: 600;
+    			font-size: 35px;
+   			 	color: #fff;
+    			text-shadow: 3px 2px 8px #333;
+			}
+		}
+		@media (max-width: 710px) 
 		{
-			color: #fff;
+			#myCarousel div #title2 {
+				font-size: 45px;
+    			color: #fff;
+    			font-weight: 600;
+    			text-shadow: 3px 2px 8px #333;
+			}
+			#myCarousel div #title1{		    
+				font-weight: 600;
+    			font-size: 27px;
+   			 	color: #fff;
+    			text-shadow: 3px 2px 8px #333;
+			}
+		}
+		@media (max-width: 605px)
+		{
+			#myCarousel div #title2 {
+				font-size: 37px;
+    			color: #fff;
+    			font-weight: 600;
+    			text-shadow: 3px 2px 8px #333;
+			}
+			#myCarousel div #title1{		    
+				font-weight: 600;
+    			font-size: 20px;
+   			 	color: #fff;
+    			text-shadow: 3px 2px 8px #333;
+			}
+		}
+		
+		@media (max-width: 520px)
+		{
+			#myCarousel div #title1
+			{
+				font-weight: 600;
+    			font-size: 19px;
+    			color: #fff;
+    			text-shadow: 3px 2px 8px #333;
+			}
+			#myCarousel div #title2
+			{
+				font-size: 29px;
+   				color: #fff;
+   				font-weight: 600;
+    			text-shadow: 3px 2px 8px #333;
+			}
+		}
+		@media (max-width: 415px)
+		{
+			#caption-carousel{
+				bottom: 2%;
+			}
+			#myCarousel div #title1
+			{
+				font-weight: 600;
+    			font-size: 12px;
+    			color: #fff;
+    			text-shadow: 3px 2px 8px #333;
+			}
+			#myCarousel div #title2
+			{
+				font-size: 20px;
+   				color: #fff;
+   				font-weight: 600;
+    			text-shadow: 3px 2px 8px #333;
+			}
+		}
+		@media (max-width: 320px)
+		{
+			
+			#myCarousel div #title1
+			{
+    			font-size: 9px;
+    			
+			}
+			#myCarousel div #title2
+			{
+				font-size: 15px;
+   				
+			}
+		}
+		@media (max-width: 990px)
+		{
+			.container-fluid>.row+.row+.row+.row .col-md-5
+			{
+				margin-bottom: 35px;
+			}
+			#caption-carousel
+			{
+				left: 0px;
+			}
+		}
+		@media (max-width: 310px)
+		{
+			.container-fluid>.row+.row+.row+.row+.row+.row>.col-md-12>.col-md-12 p:first-child
+			{
+				font-size: 20px;
+				text-align: center;
+			}
+			.container-fluid>.row+.row+.row+.row+.row>.col-md-12>p:first-child
+			{
+				font-size: 29px;
+   				font-weight: 600;
+			}
+		}
+		@media (max-width: 285px)
+		{
+			#content-box button
+			{
+				width: auto;
+			   
+			    font-size: 17px;
+			}
+			#myCarousel button
+			{
+				width: auto;
+				font-size: 15px;
+			}
+			.container-fluid>.row+.row+.row button
+			{
+				width: auto;
+				font-size: 14px;
+			}
+		}
+		@media (max-width: 376px)
+		{
+			.container-fluid>.row+.row+.row+.row+.row+.row+.row>.col-md-12 .col-md-8
+			{
+				width: 68.666667%;
+				padding-left: 0px;
+			}
 		}

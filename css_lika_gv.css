@@ -340,12 +340,6 @@ template {
 [hidden] {
   display: none;
 } /*end reset css*/
-		.container-fluid
-		{
-		  padding-left: 0px;
-   		  padding-right: 0px;
-		}
-
 		
 	/*	html,body {
     height:100%;
@@ -382,43 +376,20 @@ template {
 .well {
     opacity:0.85
 }*/
-	/*	.carousel-inner{
-		  width:100%;
-		  max-height: 200px !important;
-		}*/
-		.row3 .col-md-12
-		{
-			background-image: url('‪../../IMG2/Layer-24.png');
-		    background-repeat: repeat;
-		    height: auto;
-		    width: auto;
-		}
-		.row4 .col-md-12
+		
+		#tai-ung-dung .col-md-12
 		{
 			background-image: url('‪../../IMG2/download.jpg');
 		    background-repeat: repeat;
 		    height: auto;
+		    background-position: center center;
+		    background-repeat: no-repeat;
+		    
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
 		}
-	/*	.title1
-		{
-			font-size: 64px;
-			font-weight: 700;
-			color: #fff;
-			text-shadow: 3px 2px 8px #333;
-		}
-		.title2
-		{
-			font-size: 20px;
-			font-family: Roboto;
-			color: #fff;
-		}
-	*/
-		
-		/*#div-carousel
-		{
-			padding-left: 0px;
-			padding-right: 0px;
-		}*/
 		#form-dk{
 			position: absolute;
 			top: 20px;
@@ -464,12 +435,12 @@ template {
 		    font-family: roboto;
 		}
 	
-		#row1
+		#cong-dong-300gv>.col-md-12
 		{
 			text-align: center;
 			padding: 40px 60px;
 		}
-		#row2 .col-md-1
+		#quyen-loi-gv>.col-md-12 .col-md-1
 		{
 			font-size: 23px;
    			padding: 0px 0px;
@@ -482,12 +453,12 @@ template {
 			color: #F0A833;
 			background-color:#Fff; 
 		}
-		#row2 #row2-right
+		#quyen-loi-gv #qlgv-right
 		{
 			 line-height: 35px;
    				 margin: 25px 0px;
 		}
-		#row2 .col-md-1:hover
+		#quyen-loi-gv .col-md-1:hover
 		{
 			color: #fff;
 			background-color: #F0A833;
@@ -497,18 +468,25 @@ template {
 			max-width: 100%;
 			vertical-align: top;
 		}
-		#row2{
+		#quyen-loi-gv>.col-md-12{
 
 			background-image: url('‪../../IMG2/Layer-19.png');		
 			padding: 40px 60px;
 
 		}
-		#row3
+		#cv-van-hanh>.col-md-12
 		{
 			padding: 20px 60px;
 			background-image: url('‪../../IMG2/Banner_trangchu.jpg');
+			 background-position: center center;
+		    background-repeat: no-repeat;
+		    
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
 		}
-		#row3 .cr3
+		#cv-van-hanh>.col-md-12>.col-md-3
 		{
 			border: 1px solid #5B5D5D;
 			background-color: rgba(0,0,0,0.56);
@@ -516,6 +494,7 @@ template {
 			width: 281px;
 			padding: 15px;
 			border-radius: 12px;
+			height: 280px;
 		}
 		#row3 .col-md-12 .col-md-3
 		{
@@ -529,13 +508,13 @@ template {
 		    color: #fff;
 		    text-align: left;
 		}
-		.row5 .col-md-12
+		#cam-nhan-cua-gv .col-md-12
 		{
 		   padding: 20px 90px;
 
 		}
 		
-		.row4 >.col-md-12
+		#tai-ung-dung >.col-md-12
 		{
 			padding: 0 24%;
 			height: auto;
@@ -572,8 +551,8 @@ template {
 		{
 			border-right: 1px solid #D0D3D4;
 			border-top-right-radius: 15px;
-			width: 300px;
-    		height: 91px;
+			width: 100%;
+    		height: auto;
 		}
 		.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 			background-color: #FBFCFC;
@@ -585,33 +564,40 @@ template {
 			    margin: 30px 0px;
 
 		}
-		#row6
+		#k12-vi-su-nghiep-gd>.col-md-12
 		{
 			 padding: 20px 30px;
 			 background-image: url('‪../../IMG2/Layer-49.png');
 			 background-repeat: repeat;
+			 background-position: center center;
+		    background-repeat: no-repeat;
+		    
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
 		}
-		#row6 .col-md-12
+		#k12-vi-su-nghiep-gd>.col-md-12 .col-md-12
 		{
 			background-color: #fff;
 			padding: 30px;
 			border-radius: 25px;
 		}
-		#row6 .col-md-7
+		#k12-vi-su-nghiep-gd>.col-md-12 .col-md-7
 		{
 			 margin-top: 38px;
    			line-height: 25px;
 		}
-		#row6 .col-md-5
+		#k12-vi-su-nghiep-gd>.col-md-12 .col-md-5
 		{
 			 margin-top: 38px;
 		}
-		#row7
+		#cau-hoi-thuong-gap>.col-md-12
 		{
 			 padding: 20px 90px;
 			 margin-bottom: 30px;
 		}
-		#row7 .col-md-12
+		#cau-hoi-thuong-gap>.col-md-12 .col-md-12
 		{
 			background-color: #F7F9F9;
 			padding: 0px;
@@ -619,14 +605,14 @@ template {
    			 border-radius: 8px;
     		margin-top: 20px;
 		}
-		#row7 .col-md-1
+		#cau-hoi-thuong-gap>.col-md-12 .col-md-1
 		{
 			background-color: #F5B041;
    			text-align: center;
        		border-bottom-left-radius: 7px;
     		border-top-left-radius: 7px;
 		}
-		#row7 .col-md-11
+		#cau-hoi-thuong-gap>.col-md-12 .col-md-11
 		{
 			margin-top: 11px;
 		}
@@ -676,4 +662,172 @@ template {
 		#row8 p
 		{
 			color: #fff;
+		}
+		@media (max-width: 1294px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				width: 256px;
+				margin: 10px 10px;
+				height: 299px;
+
+			}
+		}
+		@media (max-width: 1190px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				width: 243px;
+    			margin: 10px 13px;
+
+			}
+		}
+		@media (max-width: 1161px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				width: 212px;
+   				margin: 10px 19px;
+   				height: 346px;
+
+			}
+		}
+		@media (max-width: 1086px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				width: 196px;
+			    margin: 10px 22px;
+			    height: 357px;
+			}
+			#cv-van-hanh>.col-md-12>.col-md-3 p:first-child
+			{
+				    font-size: 25px !important;
+			}
+		}
+		@media (max-width: 1042px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				    width: 191px;
+			}
+		}
+		@media (max-width: 1022px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				        margin: 10px 19px;
+			}
+		}
+		@media (max-width: 1062px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				width: 100%;
+				margin: 10px 0px;
+				 height: 249px;
+
+			}
+			#cv-van-hanh>.col-md-12 .col-md-3 p:first-child
+			{
+				    font-size: 38px !important;
+				    text-align: left !important;
+			}
+		}
+		@media (max-width: 1022px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				        margin: 10px 19px;
+			}
+		}
+		@media (max-width: 438px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				
+				 height: 273px;
+			}
+		}
+		@media (max-width: 366px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				
+				 height: 338px;
+			}
+		}
+		@media (max-width: 366px){
+			#cv-van-hanh>.col-md-12>.col-md-3{
+				
+				 height: 373px;
+			}
+		}
+		@media (max-width: 914px){
+			#myCarousel div #title1{
+				 font-size: 52px;
+			}
+		}
+		@media (max-width: 988px){
+			#form-dk{
+				
+			    width: 400px;
+			}
+			#myCarousel div #title1{
+				 font-size: 48px;
+			}
+			#myCarousel div #title2{
+				font-size: 16px;
+			}
+			#caption-carousel{
+				bottom: 35%;
+				left: 7px;
+			}
+		}
+		@media (max-width: 805px){
+			#form-dk{
+				top: 37px;
+			    right: 15px;
+			    height: 418px;
+			    width: 336px;
+			}
+			#myCarousel div #title1{
+				 font-size: 40px;
+			}
+			#myCarousel div #title2{
+				font-size: 15px;
+			}
+			#caption-carousel{
+				bottom: 35%;
+				left: 20px;
+				width: 359px;
+			}
+		}
+		@media (max-width: 679px){
+			#form-dk{
+				top: 37px;
+			    right: 15px;
+			    height: 424px;
+			    width: 314px;
+			}
+			#myCarousel div #title1{
+				 font-size: 35px;
+			}
+			#myCarousel div #title2{
+				font-size: 14px;
+			}
+			#caption-carousel{
+				width: 246px;
+
+			}
+		}
+		@media (max-width: 579px){
+			#form-dk{
+				    top: 37px;
+				    right: 81px;
+				    height: 424px;
+				    width: 430px;
+			}
+			#myCarousel div #title1{
+				 font-size: 35px;
+			}
+			#myCarousel div #title2{
+				font-size: 14px;
+			}
+			#caption-carousel{
+				width: 246px;
+				left: 82px;
+
+			}
+		}
+		@media (max-width: 542px){
+			#form-dk{
+				    right: 76px;
+			}
+		}
+		@media (max-width: 534px){
+			#form-dk{
+				    width: 100%;
+				    right: 0px;
+			}
 		}
